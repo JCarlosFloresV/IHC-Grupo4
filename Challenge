@@ -1,5 +1,47 @@
-#include<iostream>
-using namespace std;
-int main(){
-cout<<"Hola Mundo"<<endl;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>MyJob</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container logo">
+      <img src="Imagen2.png" >
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Unirse ahora</a></li>
+          <li><a href="#">Iniciar seccion</a></li>
+          <li><a href="#">Soy empresa</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+<main class="main">
+  <div class="container">
+  <h1>"Unete a nuestra comunidad y encuentra tu trabajo ideal"</h1>
+  <div class="imagen">
+    <img src="Img1.png">
+  </div>
+  </div>
+
+  <div class="contenedorRegistro">
+  <div class="form_top">
+    <h2>Registrate</h2>
+  </div>
+  <form class="form_reg" action="">
+    <input class="input" type="text" placeholder="Nombre" required autofocus>
+    <input class="input" type="email" placeholder="Email"required autofocus>
+    <input class="input" type="pass" placeholder="Password" required autofocus>
+    <div class="btn_form">
+      <input class="btn_submit" type="submit" value="Registrar">
+    </div>
+    </form>
+  </div>
+  <div class="segundop">
+    <p>Nuestro proposito es ayudartea encontrar tu trabajo ideal</p>
+  </div>
+
+</main>
+</body>

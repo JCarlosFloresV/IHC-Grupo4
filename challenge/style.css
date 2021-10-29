@@ -7,12 +7,22 @@ body{
   margin: 0;
 }
 h1{
+text-align: center;
 font-size: 4rem;
 line-height: 1.3em;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .imagen{
   margin-bottom: 1.6em;
   float: left;
+}
+.imagenFJ{
+ margin: auto;
+ width: 30%;
 }
 .header{
   background: #204255;
@@ -26,11 +36,6 @@ line-height: 1.3em;
 .header a{
   color: white;
   text-decoration: none;
-}
-.logo{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .navigation ul{
   margin: 0;
@@ -57,13 +62,13 @@ line-height: 1.3em;
   font-size: 1.5rem;
   line-height: 2.5em;
   color: white;
-  text-align: left;
+  text-align: center;
 }
-
 .contenedorRegistro{
-  max-width: 450px;
-  height: auto;
+  max-width: 550px;
+  height: 370px;
   margin: 5% auto;
+  margin-left: 750px;
   padding-bottom: 1rem;
   background-color: #204255;
 }
@@ -80,7 +85,7 @@ line-height: 1.3em;
   font-size: 35px;
 }
 .form_reg{
-  padding: 0 2rem;
+  padding: 0 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,3 +114,4 @@ line-height: 1.3em;
 .btn_submit:hover{
   background-color: #F39B53;
 }
+

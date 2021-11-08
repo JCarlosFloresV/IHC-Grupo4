@@ -114,4 +114,21 @@ line-height: 1.3em;
 .btn_submit:hover{
   background-color: #F39B53;
 }
-
+.tercerp p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.1em;
+  color: white;
+}
+.cuartop p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.1em;
+  color: white;
+}
+.footer{
+  background: #204255;
+  padding: 2rem 0;
+  text-align: Center;
+  margin-top: 1.5rem;
+}

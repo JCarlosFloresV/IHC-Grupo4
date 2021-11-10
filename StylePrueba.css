@@ -1,0 +1,134 @@
+body{
+  font-family: times, sans-serif;
+  color: white;
+  background: #0F222D;
+  font-size: 1.33rem;
+  line-height: 1.4em;
+  margin: 0;
+}
+h1{
+text-align: center;
+font-size: 4rem;
+line-height: 1.3em;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imagen{
+  margin-bottom: 1.6em;
+  float: left;
+}
+.imagenFJ{
+ margin: auto;
+ width: 30%;
+}
+.header{
+  background: #204255;
+  color: white;
+  padding: 0.1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  display: block;
+  padding: 1rem 3rem;
+  transition: all 0.4s linear;
+  border-radius: 1px;
+}
+.navigation ul li a:hover{
+  background: #0F222D;
+}
+.main{
+  padding: 5rem;
+}
+.segundop p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5em;
+  color: white;
+  text-align: center;
+}
+.contenedorRegistro{
+  max-width: 550px;
+  height: 370px;
+  margin: 5% auto;
+  margin-left: 750px;
+  padding-bottom: 1rem;
+  background-color: #204255;
+}
+.form_top{
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 0.01rem;
+  border-top: solid .6rem #F39B53;
+  margin-bottom: 1rem;
+}
+.form_top h2{
+  font-weight: bold;
+  color: #F39B53;
+  font-size: 35px;
+}
+.form_reg{
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn_form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.input, .btn_submit{
+  padding: .5rem;
+  margin: .5rem 0;
+  border: none;
+  border-bottom: solid #C8C8C8 .2rem;
+  transition: all .5s;
+}
+.input:focus{
+  border-bottom: solid #F39B53 .2rem;
+}
+.btn_submit{
+  width: 40%;
+  border-bottom: none;
+  background-color: #31B1E5;
+  color: white;
+}
+.btn_submit:hover{
+  background-color: #F39B53;
+}
+.tercerp p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.1em;
+  color: white;
+}
+.cuartop p{
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.1em;
+  color: white;
+}
+.footer{
+  background: #204255;
+  padding: 2rem 0;
+  text-align: Center;
+  margin-top: 1.5rem;
+}

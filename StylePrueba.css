@@ -98,9 +98,18 @@ line-height: 1.3em;
 .input, .btn_submit{
   padding: .5rem;
   margin: .5rem 0;
+  margin-bottom: 1px;
   border: none;
   border-bottom: solid #C8C8C8 .2rem;
   transition: all .5s;
+}
+.form_reg p{
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+.form_reg p:hover{
+  color: #F39B53;
 }
 .input:focus{
   border-bottom: solid #F39B53 .2rem;
@@ -126,9 +135,50 @@ line-height: 1.3em;
   line-height: 2.1em;
   color: white;
 }
-.footer{
+.quintop{
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+.SextoP {
+  padding: 25px;
+  margin: 50px;
+  text-align: center;
+}
+.SextoP p,h2{
+  text-align: left;
+}
+footer{
+  width: 100%;
+  padding: 10px 0px;
   background: #204255;
-  padding: 2rem 0;
-  text-align: Center;
-  margin-top: 1.5rem;
+}
+.ContainerFooter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-top: 0;
+}
+.Links{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Imgfooter{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+}
+.Links h2{
+  margin-bottom: 5px;
+  color: white;
+}
+.Links a{
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+.Links a:hover{
+  color: #31B1E5;
 }
